@@ -163,4 +163,5 @@ Comprueba si ha pasado 1 minuto (60000 ms) desde la última verificación
 - Las variables compartidas con la ISR deben ser `volatile`
 - La ISR debe ser lo más corta posible (solo incrementa contador y cambia bandera)
 - El pin usado (18) puede cambiarse según disponibilidad
-- La interrupción se dispara en flanco de bajada (FALLING)
+- La interrupción se dispara en flanco de bajada (FALLING).
+
